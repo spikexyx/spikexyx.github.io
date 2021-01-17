@@ -4,8 +4,6 @@
     <title>Hello World</title>
     <url>/2021/01/16/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -25,12 +23,13 @@
   <entry>
     <title>test_site</title>
     <url>/2021/01/17/test-site/</url>
-    <content><![CDATA[<h1 id="网站测试"><a href="#网站测试" class="headerlink" title="网站测试"></a>网站测试</h1><h2 id="第一级标题，文字测试"><a href="#第一级标题，文字测试" class="headerlink" title="第一级标题，文字测试"></a>第一级标题，文字测试</h2><p>一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。</p>
+    <content><![CDATA[<p><img src="https://w.wallhaven.cc/full/q6/wallhaven-q6jvjl.jpg"></p>
+<a id="more"></a>
+
+<h1 id="网站测试"><a href="#网站测试" class="headerlink" title="网站测试"></a>网站测试</h1><h2 id="第一级标题，文字测试"><a href="#第一级标题，文字测试" class="headerlink" title="第一级标题，文字测试"></a>第一级标题，文字测试</h2><p>一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。</p>
 <p>每想你一次，天上飘落一粒沙，从此形成了撒哈拉。 每想你一次，天上就掉下一滴水，于是形成了太平洋。</p>
 <p>梦想，可以天花乱坠，理想，是我们一步一个脚印踩出来的坎坷道路。</p>
 <p>红尘十丈，茫茫的人海，竟还是自己的来处。</p>
-<a id="more"></a>
-
 <h2 id="第二级标题，图片测试"><a href="#第二级标题，图片测试" class="headerlink" title="第二级标题，图片测试"></a>第二级标题，图片测试</h2><p><img src="https://images8.alphacoders.com/103/1031109.jpg"></p>
 <p><img src="https://images3.alphacoders.com/949/949504.jpg"></p>
 <h2 id="第三级标题，列表测试"><a href="#第三级标题，列表测试" class="headerlink" title="第三级标题，列表测试"></a>第三级标题，列表测试</h2><ol>
@@ -40,5 +39,8 @@
 </ol>
 <h2 id="第四级标题，标题测试"><a href="#第四级标题，标题测试" class="headerlink" title="第四级标题，标题测试"></a>第四级标题，标题测试</h2><h3 id="first"><a href="#first" class="headerlink" title="first"></a>first</h3><h4 id="second"><a href="#second" class="headerlink" title="second"></a>second</h4><h2 id="第五级标题，代码测试"><a href="#第五级标题，代码测试" class="headerlink" title="第五级标题，代码测试"></a>第五级标题，代码测试</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;hello world!&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <tags>
+        <tag>site_test</tag>
+      </tags>
   </entry>
 </search>
