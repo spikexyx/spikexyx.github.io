@@ -253,6 +253,13 @@
             </span>
 
           
+            <span id="/2021/01/17/%E5%88%A9%E7%94%A8GitHub-Pages-Hexo%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%81%AE%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/" class="post-meta-item leancloud_visitors" data-flag-title="利用GitHub-Pages+Hexo建立个人网站の建站日志" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
   
   <span class="post-meta-item">
     
@@ -328,7 +335,7 @@
 <img src="https://pic1.zhimg.com/80/v2-72a3f22c080e99343c3cc4aabce10e3c_720w.jpg" style="zoom:80%;" />
 
 <p>Title为标题，随便填一个就行，将刚刚从 id_rsa.pub 中复制的内容粘贴进 Key 框，点击 Add SSH key 即可。</p>
-<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#116;&#104;&#x75;&#x62;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#x74;&#64;&#103;&#105;&#116;&#104;&#x75;&#x62;&#46;&#99;&#x6f;&#109;</a>:</p>
+<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#99;&#111;&#x6d;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#99;&#111;&#x6d;</a>:</p>
 <p><img src="https://pic3.zhimg.com/80/v2-da481ffa686410becd4186c656b4ebd6_720w.jpg"></p>
 <p>如上则说明设置成功。</p>
 <p><em>备注</em>： 这里之所以设置 GitHub 密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在 GitHub 上，私钥放置在自己的电脑里。GitHub 要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git 就会匹配你的私钥跟 GitHub 上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
@@ -610,7 +617,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">6k</span>
+    <span title="站点总字数">7k</span>
 </div>
 
         
@@ -689,7 +696,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       avatar     : 'mm',
       meta       : guest,
       pageSize   : '10' || 10,
-      visitor    : false,
+      visitor    : true,
       lang       : 'zh-cn' || 'zh-cn',
       path       : location.pathname,
       recordIP   : false,
