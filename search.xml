@@ -63,7 +63,7 @@
 <img src="https://pic1.zhimg.com/80/v2-72a3f22c080e99343c3cc4aabce10e3c_720w.jpg" style="zoom:80%;" />
 
 <p>Title为标题，随便填一个就行，将刚刚从 id_rsa.pub 中复制的内容粘贴进 Key 框，点击 Add SSH key 即可。</p>
-<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#x6f;&#109;</a>:</p>
+<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#98;&#46;&#x63;&#111;&#109;</a>:</p>
 <p><img src="https://pic3.zhimg.com/80/v2-da481ffa686410becd4186c656b4ebd6_720w.jpg"></p>
 <p>如上则说明设置成功。</p>
 <p><em>备注</em>： 这里之所以设置 GitHub 密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在 GitHub 上，私钥放置在自己的电脑里。GitHub 要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git 就会匹配你的私钥跟 GitHub 上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
@@ -148,11 +148,16 @@
 <p>其余同理。具体细节等请参照 <a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/README.md">NexT官方中文文档</a> 或 <a href="https://theme-next.js.org/">NexT官方网站</a>。</p>
 <h2 id="主题个性化设置与优化"><a href="#主题个性化设置与优化" class="headerlink" title="主题个性化设置与优化"></a>主题个性化设置与优化</h2><p>见我的另一篇博文 <a href="https://yx-blog.top/2021/01/18/Hexo-NexT%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE%E4%B8%8E%E4%BC%98%E5%8C%96/">Hexo-NexT主题个性化设置与优化</a></p>
 <h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
-<li>GitHub从国内可能访问较慢，通过 fan qiang 或者连上学校VPN可以加快速度。</li>
-<li>注意文章中的 <code>_config.yml</code> 文件在根目录和themes/next目录中分别有一个，两者分别称为站点配置文件和主题配置文件，别搞混了。</li>
-<li>购买域名后要实名认证，否则网站无效。</li>
-<li>购买域名后需要一段时间审核，审核期间网站是挂起的（也就是无效的），审核期间无法添加SSL证书，也无法通过该域名访问博客网站。推荐首先购买域名等待审核期间进行其余工作。</li>
-<li>文章中更换主题以 NexT 主题为例，也可以去 hexo 网站选择其他主题，进入对应主题界面看怎么下载部署。</li>
+<li><p>GitHub从国内可能访问较慢，通过 fan qiang 或者连上学校VPN可以加快速度。</p>
+</li>
+<li><p>注意文章中的 <code>_config.yml</code> 文件在根目录和themes/next目录中分别有一个，两者分别称为站点配置文件和主题配置文件，别搞混了。</p>
+</li>
+<li><p>购买域名后要实名认证，否则网站无效。</p>
+</li>
+<li><p>购买域名后需要一段时间审核，审核期间网站是挂起的（也就是无效的），审核期间无法添加SSL证书，也无法通过该域名访问博客网站。推荐首先购买域名等待审核期间进行其余工作。</p>
+</li>
+<li><p>文章中更换主题以 NexT 主题为例，也可以去 hexo 网站选择其他主题，进入对应主题界面看怎么下载部署。</p>
+</li>
 </ol>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ol>
 <li><a href="https://segmentfault.com/a/1190000017986794">超详细Hexo+Github Page搭建技术博客教程【持续更新】</a></li>
