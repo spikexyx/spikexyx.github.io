@@ -8,12 +8,27 @@
 <hr>
 <a id="more"></a>
 
-<ol>
-<li><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html">hexo的next主题个性化教程:打造炫酷网站——Moorez</a>（非常非常详尽的教学，不过是2017年的教程，有少许地方现在已经不适用）</li>
-<li><a href="https://suyin-blog.club/2020/323EH2Y/">Hexo-Next 主题安装并配置教程——苏寅 Blog</a>（来自苏寅大佬的文章，而且实时更新，介绍了除了官方文档之外的一些插件与优化，简单明了且美观）</li>
-<li><a href="https://io-oi.me/tech/hexo-next-optimization/">打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化——reuixiy</a>（也是一篇深度好文）</li>
-<li><a href="https://theme-next.js.org/">NexT官方文件网站</a></li>
-<li><a href="https://hexo.io/">Hexo官网</a></li>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><ol>
+<li><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html">hexo的next主题个性化教程:打造炫酷网站——Moorez</a>（非常非常详尽的教学，不过是2017年的教程，有少许地方现在已经不适用）</p>
+</li>
+<li><p><a href="https://suyin-blog.club/2020/323EH2Y/">Hexo-Next 主题安装并配置教程——苏寅 Blog</a>（来自苏寅大佬的文章，而且实时更新，介绍了除了官方文档之外的一些插件与优化，简单明了且美观）</p>
+</li>
+<li><p><a href="https://io-oi.me/tech/hexo-next-optimization/">打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化——reuixiy</a>（也是一篇深度好文）</p>
+</li>
+<li><p><a href="https://theme-next.js.org/">NexT官方文件网站</a></p>
+</li>
+<li><p><a href="https://hexo.io/">Hexo官网</a></p>
+</li>
+</ol>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><ol>
+<li><p>最新版NexT主题中已经集成了Valine评论功能，只用在 <strong>主题</strong> 配置文件 <code>_config.yml</code> 中首先找到comment项将参数设为valine</p>
+<p><a href="https://imgchr.com/i/s69EKs"><img src="https://s3.ax1x.com/2021/01/18/s69EKs.png" alt="s69EKs.png"></a></p>
+<p>再找到 “valine” 项设置各项参数即可。注意其中的 appid 和 appkey 来自于leancloud上你开的app。</p>
+<p><a href="https://imgchr.com/i/s69Vrn"><img src="https://s3.ax1x.com/2021/01/18/s69Vrn.png" alt="s69Vrn.png"></a></p>
+<p>（注意首先需要在leancloud上注册一个账号并新建一个app）（参考苏寅大佬文章中minivaline部分）</p>
+</li>
+<li><p>分享文章中改变主页背景图片的方法目前已失效，而且暂时没有找到合适的方法，考虑换背景图不是刚需，所以忽略。</p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -63,7 +78,7 @@
 <img src="https://pic1.zhimg.com/80/v2-72a3f22c080e99343c3cc4aabce10e3c_720w.jpg" style="zoom:80%;" />
 
 <p>Title为标题，随便填一个就行，将刚刚从 id_rsa.pub 中复制的内容粘贴进 Key 框，点击 Add SSH key 即可。</p>
-<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;</a>:</p>
+<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;</a>:</p>
 <p><img src="https://pic3.zhimg.com/80/v2-da481ffa686410becd4186c656b4ebd6_720w.jpg"></p>
 <p>如上则说明设置成功。</p>
 <p><em>备注</em>： 这里之所以设置 GitHub 密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在 GitHub 上，私钥放置在自己的电脑里。GitHub 要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git 就会匹配你的私钥跟 GitHub 上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
