@@ -58,10 +58,6 @@
 <h2 id="第四级标题，标题测试"><a href="#第四级标题，标题测试" class="headerlink" title="第四级标题，标题测试"></a>第四级标题，标题测试</h2><h3 id="first"><a href="#first" class="headerlink" title="first"></a>first</h3><h4 id="second"><a href="#second" class="headerlink" title="second"></a>second</h4><h2 id="第五级标题，代码测试"><a href="#第五级标题，代码测试" class="headerlink" title="第五级标题，代码测试"></a>第五级标题，代码测试</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;hello world!&quot;</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="第六级标题，视频测试"><a href="#第六级标题，视频测试" class="headerlink" title="第六级标题，视频测试"></a>第六级标题，视频测试</h2><p>Bilibili:</p>
 <iframe src="https://player.bilibili.com/player.html?aid=497877287&bvid=BV1uK41157uh&cid=182039935&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<p>Youtube:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BFfOtbp-vd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ]]></content>
       <tags>
         <tag>site_test</tag>
@@ -107,7 +103,7 @@
 <img src="https://pic1.zhimg.com/80/v2-72a3f22c080e99343c3cc4aabce10e3c_720w.jpg" style="zoom:80%;" />
 
 <p>Title为标题，随便填一个就行，将刚刚从 id_rsa.pub 中复制的内容粘贴进 Key 框，点击 Add SSH key 即可。</p>
-<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#98;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#98;&#x2e;&#x63;&#x6f;&#x6d;</a>:</p>
+<p>在 Git Bash 中检测 GitHub 公钥是否设置成功，输入 ssh <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#109;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#109;</a>:</p>
 <p><img src="https://pic3.zhimg.com/80/v2-da481ffa686410becd4186c656b4ebd6_720w.jpg"></p>
 <p>如上则说明设置成功。</p>
 <p><em>备注</em>： 这里之所以设置 GitHub 密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在 GitHub 上，私钥放置在自己的电脑里。GitHub 要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git 就会匹配你的私钥跟 GitHub 上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
